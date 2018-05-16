@@ -3,7 +3,7 @@
 
 /* ma première feuille de style externe*/
 
-des styles simples pour visualiser les div */
+/* des styles simples pour visualiser les div */ 
 
 .fond_orange {
     background: orange;
@@ -39,8 +39,9 @@ body {
 }
 /* le haut de page */
 header{
+    background: url(../img/panorama1.jpg) center top no-repeat;
     /* hauteur de l'élément */
-    height: 236px;
+    height: 500px;
     border: 2px solid white;
 }
 
@@ -49,10 +50,12 @@ aside{
     /* largeur de l'élément */
     width: 280px;
     float: left;
+    padding: 10px;
 }
 #main{
-    width: 700px;
+    width: 680px;
     float: right;
+    padding: 10px; 
 }
 /* la classe pour tout remettre dans le flux normal */
 .clear{
