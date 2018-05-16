@@ -10,7 +10,7 @@
 </head>
 <body>
 <!-- début de la div principale -->
-<div>
+<div id="wrapper">
 <!-- des nouveautés du HTML 5 -->
 <!-- en-tête de la page ou d'une division ou d'une section -->
 <header class="fond_vert">
@@ -18,23 +18,44 @@
     <p>Avecun peu de texte</p>
     <p>Avec un peu de texte dans un autre paragraphe</p>
 </header>
+<aside class="fond_blue">
+        <h2>Bienvenue</h2>
+        <nav class="fond_rouge">
+            <h2>Navigation</h2>
+            <ul>
+                <Li>Menu # 01</Li>
+                <li>Menu # 02</li>
+                <li>Menu # 03</li>
+                <li>Menu # 04</li>
+                <Li>Menu # 05</Li>
+                <li>Menu # 06</li>
+                <li>Menu # 07</li>
+                <li>Menu # 08</li>
+            </ul>
+        </nav>
+    </aside>
+<div id="main"><!-- contenu principal -->
 <!-- la navigation de la page -->
 <!-- du contenu textuel -->
-<nav class="fond_rouge">
-    <h2>Navigation</h2>
-    <ul>
-        <Li>Menu 01</Li>
-        <li>Menu 02</li>
-        <li>Menu 03</li>
-        <li>Menu 04</li>
-    </ul>
-</nav>
-<article class="fond_orange">Contenu textuel</article>
+
+<article class="fond_orange">
+    <h2>Titre d'un article</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+    <p class="fond_gris">je suis le <span class="fond_rouge"> plus fort en code !</span></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+</article>
+</div><!-- fermeture de la div main -->
+<!-- cette div permet de reprendre le flux normal -->
+<div class="clear"></div>
 <!-- pour une division sur le côté de la page -->
-<aside>Le côté de la page</aside>
+
 
 <!-- le pied de page -->
-<footer>Pied de page</footer>
+<footer class="fond_blue">Pied de page </footer>
+<!-- fermeture première div -->
 </div>
 </body>
 </html>
