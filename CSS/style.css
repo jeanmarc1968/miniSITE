@@ -38,7 +38,7 @@ body {
     border: 1px solid white
 }
 /* le haut de page */
-header{
+header {
     background: url(../img/panorama1.jpg) center top no-repeat;
     /* hauteur de l'élément */
     height: 500px;
@@ -46,22 +46,62 @@ header{
 }
 
 /* le coté de la page */
-aside{
+aside {
     /* largeur de l'élément */
     width: 280px;
     float: left;
     padding: 10px;
 }
-#main{
+#main {
     width: 680px;
     float: right;
     padding: 10px; 
 }
 /* la classe pour tout remettre dans le flux normal */
-.clear{
+.clear {
     clear: both;
 }
 /* le pied de page */
 footer {
     height: 200px;
+}
+/* le formulaire sur les CSS */
+
+form {
+    background: whitesmoke;
+    padding: 10px;
+    width: 80%;
+}
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid olivedrab;
+    width: 80%;
+}
+legend {
+    front-weight: 800;
+    color: olive;
+}
+label {
+    background-color: orangered;
+    color: white;
+    margin-top: 10px;
+    /* display: block permet d'aller à la ligne automatiquement */
+    display: block;
+    width: 300px
+}
+label.inline {
+    /* tous les labels qui ont la classe .inline */
+    display: inline;
+    margin-right: 50px;
+}
+input, textarea, select{
+    /* pour styler plusieurs éléments et leur donner des attributs communs */
+    border: 1px solid olivedrab;
+    padding: 3px;
+    box-shadow: 1px 1px 2px gray inset;
+    margin-top: 10px;
+}
+select{
+    margin-top: 5px; 
 }
