@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS document */
+
+body {
+    /* margin: 0 auto; */
+    background-color: antiquewhite;
+}
+
+.bleu {
+    background-color: blue;
+    border-radius: 40% 0% 40% 0%;
+}
+.vert {
+    background-color: green;
+    border-radius: 10% 20% 40% 50%;
+}
+.rose {
+    background-color: pink;
+    border-radius: 15% 40% 15% 40%;  
+}
+.vert_clair {
+    background-color: lightgreen;
+    border-radius: 100%;
+}
+.rouge {
+    background-color: red;
+    border-radius: 20% 40% 20% 40%;
+}
+/* les styles communs aux div de la page */
+.c1, .c2, .c3, .c4, .vide {
+    height: 10em;
+    width: 10em;
+    /* float: left; si décommenter, décommenté également .clear */
+    display: inline-block; /* permet le float sans l'ajout de la proprièté clear */
+    border: 0.2em solid white;
+    border-radius: 10% 5% 40% 0%; 
+    text-align: center;
+    color: white;
+}
+.clear {
+    clear: both;
+}
