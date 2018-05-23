@@ -46,6 +46,22 @@ header {
     height: 370px;
     border: 2px solid white;
 }
+header h1 {
+    background-color: white;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+header h1 a {
+    text-decoration: none;
+    color: #333
+}
+header h1 a:hover {
+    /* text-decoration: underline; */
+    background-color: #333;
+    color: white;
+}
 
 /* le coté de la page */
 aside {
@@ -54,6 +70,11 @@ aside {
     float: left;
     padding: 10px;
 }
+/* les liens ne sont plus soulignés par défaut */
+a {
+    text-decoration: nome;
+}
+
 #main {
     width: 880px;
     float: right;
@@ -82,7 +103,7 @@ fieldset {
     width: 80%;
 }
 legend {
-    front-weight: 800;
+    font-weight: 800;
     color: olive;
 }
 label {
@@ -142,4 +163,32 @@ caption {
     border-radius: 100px;
     padding: 25px;
 }
+/* les pseudos class */
 
+/* quand le lien n'est pas visité */
+a:link {
+    color: orange;
+}
+/* quand le lien a été visité */
+a:visited {
+    color: lightseagreen;
+}
+/* au survol de la souris */
+a:hover {
+    color: white;
+    background: orange;
+}
+nav ul li {
+    list-style-type: none;
+    /* list-style-image: url('../img/globe_fleche.png'); */
+}
+
+/* ici pour l'astuce au survol dans la page texte */
+#survol p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+#survol:hover p {
+    display: block;
+}

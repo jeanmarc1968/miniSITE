@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie-edge">
-<title>miniSITE : des photos</title>
-<!-- la feuille de style externe avec une balise link-->
-<link href="css/style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <title>miniSITE : des photos</title>
+        <!-- la feuille de style externe avec une balise link-->
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+
+                /* les pseudo-class et :first-child */
+        article li:first-child {
+               background: lightblue;
+        }
+        article li:nth-child(4) {
+                background: olive;
+                color: white;
+        }
+        #nchild li:nth-child(2n) {
+                background: #000;
+                color: #fff;       
+        }     
+        </style>
 </head>
 <body>
 <!-- début de la div principale -->
@@ -53,7 +68,39 @@
     <p class="fond_gris">je suis le <span class="fond_rouge"> plus fort en code !</span></p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
 </article>
-</div><!-- fermeture de la div main -->
+                <h3>Un truc avec un hover</h3>
+<div id="survol">
+        Survolez cette ligne pour me faire apparaitre
+        <p>Coucou je suis là !</p>
+</div>
+<!-- fermeture de la div main -->
+<article>
+        <h1>Une liste de choses a faire</h1>
+        <ul>
+                <li>Machine a faire</li>
+                <li>faire du velo</li>
+                <li>faire a manfger</li>
+                <li>passer l'aspi</li>
+        </ul>
+</article>
+<article>
+        <h1>Une liste de choses a faire</h1>
+        <ul>
+                <li>Machine a faire</li>
+                <li>faire du velo</li>
+                <li>faire a manfger</li>
+                <li>passer l'aspi</li>
+        </ul>
+</article>
+<aticle>
+        <h1>Liste des courses a faire</h1>
+        <ol>
+                <li>dentifrice</li>
+                <li>gel douche</li>
+                <li>rhum</li>
+                <li>citrons vert</li>
+        </ol>
+</aticle>
 <!-- cette div permet de reprendre le flux normal -->
 <div class="clear"></div>
 <!-- pour une division sur le côté de la page -->

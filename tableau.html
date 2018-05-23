@@ -7,6 +7,13 @@
         <title>miniSITE : des photos</title>
         <!-- la feuille de style externe avec une balise link-->
         <link href="css/style.css" rel="stylesheet">
+        <style>
+        #nchild tr:nth-child(2n) {
+            color: white;
+            background-color: #333;
+        }
+        
+        </style>
     </head>
     <body>
         <!-- début de la div principale -->
@@ -150,41 +157,78 @@
                         </table>
                         <hr>
                         <h2>Un tableau avec des cellules fusionnées</h2>
-                        <table>
-<thead>
-    <tbody>
+                       <p>ici Papaoumar va me donner son tableau</p>
+                       <hr>
+                       <h2>Un tableau avec des cellules fusionnées</h2>
+
+           <table>
+            <thead>
+                <tr>
+                <th>Mois</th>
+                <th>Dépenses oridnaires</th>
+                <th>Sorties</th>
+                </tr>               
+            </thead>
+
+           <tbody>
+                <tr>
+                <td>Janvier</td>
+                <td>250 €</td>
+                <td>10 €</td>
+                </tr>
+                <tr>
+                <td>Février</td>
+                <td>20 €</td>
+                <td>10 €</td>
+                </tr>
+                <tr>
+                <td>Mars</td>
+                <td>20 €</td>
+                <td>10 €</td>
+                </tr>
+                <tr>
+                <td colspan="3">Total : 320 €</td> <!-- pour fusionner les deux cellules -->
+                </tr>
+            </tbody>
+            </table>
+
+Zone de message
+<table id="nchild">
+    <tr>
+        <td>coucou Papaoumar</td>
+        <td>coucou Papaoumar</td>
+        <td>coucou Papaoumar</td>
+        <td>coucou Papaoumar</td>
+        <td>coucou Papaoumar</td>        
+    </tr>
+    <tr>
+            <td>coucou Papaoumar</td>
+            <td>coucou Papaoumar</td>
+            <td>coucou Papaoumar</td>
+            <td>coucou Papaoumar</td>
+            <td>coucou Papaoumar</td>        
+        </tr>
         <tr>
-            <th>Mois</th>
-            <th>Dépenses</th>
+                <td>coucou Papaoumar</td>
+                <td>coucou Papaoumar</td>
+                <td>coucou Papaoumar</td>
+                <td>coucou Papaoumar</td>
+                <td>coucou Papaoumar</td>        
             </tr>
-        </thead>
-        <tbody>
-            <td>Janvier</td>
-            <td>250 €</td>
-        </tr>
-        <tr class="fond_blue">
-            <td>Février</td>
-            <td> 20 €</td>
-            <td> 10 €>
-        </tr>
-        <tr>
-            <td>Mars<td>
-                <td> 20 €</td>
-                <td> 10 €<td>
-                    </td>
-                    <tr class="fond_gris">
-<td colspan="3">Total : 320 €</td>
+            <tr>
+                    <td>coucou Papaoumar</td>
+                    <td>coucou Papaoumar</td>
+                    <td>coucou Papaoumar</td>
+                    <td>coucou Papaoumar</td>
+                    <td>coucou Papaoumar</td>        
+                </tr>
 
-                    </tr>
-
-    </tbody>
+</table>
 
 
 
-</thead>
 
 
-                        </table>
                     </div><!-- fermeture de la div main -->
                     <!-- cette div permet de reprendre le flux normal -->
                     <div class="clear"></div>
