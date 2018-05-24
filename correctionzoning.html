@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zoning</title>
+    <style>
+            #conteneur {
+                width: 1008px;
+                background: aquamarine;
+                color: blue;
+                margin: 0 auto;
+            }   
+                header {
+                    height: 200px;
+                    background: rosybrown;
+                }
+           .div_un, .div_deux, .div_trois, .div_quatre {
+               float: left;
+               width: 496px;
+               height: 496px;
+               border: 2px solid #000;
+           }
+           .div_un {
+               background: rgb(230, 28, 28);
+           }
+   .div_deux {
+       background: blue;
+   }
+   .div_trois {
+       background: blue;
+   }
+   .div_quatre {
+       background: red;
+   }
+   .un, .deux, .trois, .quatre {
+       float: left;
+       width: 244px;
+       height: 244px;
+       border: 2px solid pink;
+   }
+   .a {
+       float: left;
+       width: 116px;
+       height: 116px;
+       border: 2px solid #000;
+   }
+   .b {
+       float: left;
+       width: 496px;
+       height: 244px;
+       border: 2px solid black;
+   }
+   footer {
+       border: 2px solid #000;
+       background: rgb(230, 140, 6);
+   }
+   footer p {
+       text-align: justify
+ }
+ .clear {
+     clear: both;
+ }
+               </style>
+</head>
+<body>
+    <div id="conteneur"> 
+        <header>
+            <p>
+                Zone header
+            </p>
+        </header>
+        <section>
+            <div class="div_un">
+                <div class="un">
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                    <div class="a"></div>
+                </div>
+                <div class="deux">
+                        <div class="a"></div>
+                        <div class="a"></div>
+                        <div class="a"></div>
+                        <div class="a"></div>
+                </div>
+                <div class="trois">
+                        <div class="a"></div>
+                        <div class="a"></div>
+                        <div class="a"></div>
+                        <div class="a"></div>
+                </div>
+                <div class="quatre">
+                        <div class="a"></div>
+                        <div class="a"></div>
+                        <div class="a"></div>
+                        <div class="a"></div>
+                </div>
+            </div> 
+            <div class="div_deux">
+                    <div class="un"></div>
+                    <div class="deux"></div>
+                    <div class="trois"></div>
+                    <div class="quatre"></div>
+            </div>
+            <div class="div_trois">
+                    <div class="un"></div>
+                    <div class="deux"></div>
+                    <div class="b"></div>
+                   
+            </div>
+            <div class="div_quatre"></div>
+        </section>
+
+        <footer></footer>
+        <!-- fin de conteneur -->
+    </div> 
+</body>
+</html>
