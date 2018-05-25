@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+body {
+    background: lightgoldenrodyellow;
+}
+
+.couleur_un {
+    background: lightblue;
+}
+
+.couleur_deux {
+    background: lightgreen;
+}
+
+.change {
+    border: thin solid white;
+}
+

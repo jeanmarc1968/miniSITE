@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trombi</title>
+    <style>
+        body {
+            background: red;
+        }
+        #conteneur {
+            width: 1000px;
+            margin: 0 auto;
+            background: rgb(11, 197, 27);
+            border: 2px dashed blue;
+        }
+        .entete {
+            color: #fff;
+            height: 250px;
+            text-align: center;
+            background: #111111;
+            font-family: fantasy
+        
+        }
+        .entete h1 {
+            padding-top: 50px;
+            line-height: 50px;
+        }
+
+        nav {
+            text-align: center;
+            height: 50px;
+            background: #d1df0d;
+        }
+
+        .grandCarre {
+            float: left;
+            width: 500px;
+            height: 500px;
+        }
+
+        .image {
+            float : left;
+            background: url('img/panorama1.jpg') no-repeat center;
+            background-size: cover; /* permet de couvrir tout l'espace de l'élément parent */
+
+        }
+
+        .carreMoyen {
+            float: left;
+            width: 250px;
+            height: 250px;
+            background-size: cover; /* permet de couvrir tous l'espace de l'élément parent; peut avoir comme valeurs : cover, contain ou valeur en px */
+            background: url(img/venise02.jpg) no-repeat center;
+        }
+        .carreMini {
+            float: left;
+            width: 125px;
+            height: 125px;
+            background: url(img/desert.jpg) center;
+        }
+
+        /* .da {
+            float: left;
+            width: 496px;
+            height: 165px;
+        }  */
+
+        .rectangle {
+            float: left;
+            width: 496px;
+            height: 250px;
+            background: url(img/gamin.jpg) no-repeat center;
+        }
+        .clear {
+            clear: both;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="conteneur">
+    <header class="entete">
+        <h1>Trombi</h1>
+    </header>
+    <nav>
+        <p>NAV</p>
+    </nav>
+
+    <section class="section">
+                <div class="grandCarre image"></div> <!-- grand carré 1 -->
+                <div class="grandCarre"> <!-- carré n°2 -->
+                    <div class="carreMoyen"></div>
+                    <div class="carreMoyen"></div>
+                    <div class="carreMoyen"></div>
+                    <div class="carreMoyen"></div>
+                </div>
+                <div class="grandCarre"> <!-- carré trois -->
+                    <div class="carreMoyen">
+                            <div class="carreMini"></div>
+                            <div class="carreMini"></div>
+                            <div class="carreMini"></div>
+                            <div class="carreMini"></div>
+                    </div>
+
+                    <div class="carreMoyen">
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                    </div>
+
+                    <div class="carreMoyen">
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                    </div>
+
+                    <div class="carreMoyen">
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                    </div>   
+                </div>
+
+                <div class="grandCarre"> <!-- grand carré quatre -->
+                        <!-- div classe=da -->
+                                    <!-- img src="img/panorama.jpg" alt= "" width="496px" height=165px -->
+                        <!-- </div>                -->
+                        <!-- <div class="da"          -->
+                            <!-- <img src="img/panorama.jpg" alt="" width="496px" height="165px" -->
+                        <!-- </div> -->
+                        <!-- <div class="da"></div> -->
+                            <!-- <img src="img/panorama.jpg" alt="" width="496px" height="165px" -->
+                        <div class="carreMoyen"></div>
+                        <div class="carreMoyen"></div>
+                        <div class="rectangle"></div>
+                </div> <!-- carré quatre -->
+
+    </section>
+                <div class="clear"></div>
+            <footer>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor commodi hic cupiditate beatae placeat excepturi, iste consequuntur, accusamus at reprehenderit minima ea nisi numquam eos aperiam exercitationem totam! Quisquam, aliquid.</p>
+            </footer>
+    </div> <!-- fin conteneur  -->
+</body>
+</html>
