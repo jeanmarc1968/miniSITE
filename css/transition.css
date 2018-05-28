@@ -49,12 +49,12 @@ ul {
 }
 /* premier li de la ul ayant la classe .gauche */
 
-.gauche ul li:first-child{
+.gauche ul li:first-child {
     border-top: 1px solid #ccc;   
 }
 
 /* fin de la première colonne */
-ul.liste li{ /* tous les li de la ul ayant la classe .liste */
+ul.liste li { /* tous les li de la ul ayant la classe .liste */
    /*  background: lightblue; */
     border-left: 1px solid #ccc;
 }
@@ -67,7 +67,7 @@ ul.liste li{ /* tous les li de la ul ayant la classe .liste */
     text-align: center;
 }
 
-.droite .change ul li:last-child{ /* le dernier li de la ul ayant la classe .change elle-même enfant de la classe .droite */
+.droite .change ul li:last-child { /* le dernier li de la ul ayant la classe .change elle-même enfant de la classe .droite */
     border-bottom: 1px solid #ccc;
 }
 

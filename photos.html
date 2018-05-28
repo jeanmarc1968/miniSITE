@@ -7,8 +7,10 @@
 <title>miniSITE : des photos</title>
 <!-- la feuille de style externe avec une balise link-->
 <link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
+        
 <!-- début de la div principale -->
 <div id="wrapper">
 <!-- des nouveautés du HTML 5 -->
@@ -30,30 +32,46 @@
                     <li><a href="bilbo.html" title="MiniSite : Bilbo le hobbit">Bilbo</a></li>
                     <li><a href="bordures.html" title="iniSite : des bordures">Des bordures</a></li>
                     <li><a href="float.html" title="Minisite : le float">le float</a></li>
-                    <ul>
                             <li><a href="cubitus1.html" title="Minisite : le cubitus 1">Le cubitus 1</a></li>
                             <li><a href="damier.html" title="Minisite : le damier">Le damier</a></li>
                             <li><a href="cubitus2.html" title="Minisite : le cubitus 2">Le cubitus 2</a></li>
                 </ul>
         </nav>
     </aside>
-<div id="main" class="fond_orange"><!-- contenu principal -->
-<!-- la navigation de la page -->
-<!-- du contenu textuel -->
+    <div id="main" class="fond_orange"><!-- contenu principal -->
+            <!-- la navigation de la page -->
+            <!-- du contenu textuel -->
+                    <p class="text_droite">
+                    <a id="haut_de_page"></a>
+                    <a href="#bas_de_page" title="Photos" class="fond_bleu"><i class="fas fa-arrow-circle-down"></i></a>
+                    </p>
 
-<article>
-    <h2>photo GIMP</h2>
-    <img src="img/desert.jpg" alt="désert">   
-    <img src="img/ferrari.jpg" alt="ferrari"> 
-    <img src="img/portrait jeune femme.jpg" alt="bella">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
-    <p class="fond_gris">je suis le <span class="fond_rouge"> plus fort en code !</span></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
-</article>
-</div><!-- fermeture de la div main -->
+            <article>
+                <h2>photo GIMP</h2>
+                <img src="img/desert.jpg" alt="désert">   
+                <img src="img/ferrari.jpg" alt="ferrari"> 
+                <img src="img/portrait jeune femme.jpg" alt="bella">
+                <img src="img/chats.jpg" alt="chats">
+                <img src="img/siamois.jpg" alt="siamois">
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+                <p class="fond_gris">je suis le <span class="fond_rouge"> plus fort en code !</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere eius dignissimos laudantium quaerat, ipsa, saepe minima molestias quae, exercitationem illum cum nesciunt animi explicabo fugit perferendis commodi culpa nobis!</p>
+               
+            </article>
+            <article>
+                <h2>Belle prairie</h2>
+                <img src="http://www.unat-paca.asso.fr/wp-content/uploads/2017/01/montagne.jpg" alt="belle prairie" width="800px" height="400px">
+                <p class="text_droite">
+                        <a id="bas_de_page"></a>
+                        <a href="#haut_de_page" title="Photos" class="fond_bleu"><i class="fas fa-arrow-circle-up"></i></a>
+                    </p>
+            </article>
+          
+    </div><!-- fermeture de la div main -->
 <!-- cette div permet de reprendre le flux normal -->
 <div class="clear"></div>
 <!-- pour une division sur le côté de la page -->
@@ -63,5 +81,6 @@
 <footer class="fond_blue">Pied de page </footer>
 <!-- fermeture première div -->
 </div>
+        
 </body>
 </html>

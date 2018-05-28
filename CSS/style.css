@@ -20,6 +20,9 @@
 .fond_gris{
     background: lightgrey;
 }
+.fond_yellow {
+    background: yellow;
+}
 
 /*les styles de la page */
 
@@ -62,6 +65,9 @@ header h1 a:hover {
     background-color: #333;
     color: white;
 }
+.text_droite {
+    text-align: right;
+}
 
 /* le coté de la page */
 aside {
@@ -72,7 +78,7 @@ aside {
 }
 /* les liens ne sont plus soulignés par défaut */
 a {
-    text-decoration: nome;
+    text-decoration: none;
 }
 
 #main {

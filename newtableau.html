@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bourvil</title>
+    <style>
+        body {
+            background: pink;
+        }
+        table {
+            background: white;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 10px;
+            text-align: left;
+            min-width: 200px;
+        }
+
+        th {
+            /* background: lightcyan */
+            /* color white */
+        }
+
+        tr:hover {
+            background: lightskyblue;
+        }
+    
+    </style>
+        </head>
+    <body>
+        <table border="10">
+            <tr> <!-- table row une rangée de tableau-->
+                <th>Nom</th> <!-- table data -->
+                <td>André Bourvil</td>
+            </tr>
+            <tr> <!-- table row -->
+                <th rowspan="2">Téléphone</th> <!-- fusion de cette td avec celle de la rangée du dessous, -->
+                <td>Passy 07 12</td>
+            </tr>
+            <tr>
+                <td>Camemberg 78 55</td>
+            </tr>
+        </table>
+     
+    
+</body>
+</html>
